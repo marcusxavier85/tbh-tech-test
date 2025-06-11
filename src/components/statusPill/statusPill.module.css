@@ -1,0 +1,15 @@
+.statusPill {
+    padding: var(--spacing-xxsmall) var(--spacing-small);
+    border-radius: var(--radius-round);
+    width: fit-content;
+
+    &[data-status="completed"] {
+        background: var(--color-green);
+        color: var(--color-white);
+    }
+
+    &[data-status="in progress"] {
+        background: var(--color-primary);
+        color: var(--color-white);
+    }
+}

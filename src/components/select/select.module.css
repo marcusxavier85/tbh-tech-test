@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    max-width: 300px;
+}
+
+.select {
+    appearance: none;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-default);
+    padding: var(--spacing-small) var(--spacing-large) var(--spacing-small) var(--spacing-medium);
+    font-size: var(--font-size-medium);
+    font-family: inherit;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+  }
+  
+  .chevron {
+    position: absolute;
+    top: 35%;
+    right: var(--spacing-xsmall)
+  }

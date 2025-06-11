@@ -1,0 +1,54 @@
+:root {
+    /* === Primary Colors === */
+    --color-bg-light: #F7F9FA;
+    --color-bg-dark: #0F1115;
+    --color-text-primary: #1E1E1E;
+    --color-primary: #2196F3;
+  
+    /* === Secondary Colors === */
+    --color-text-secondary: #6B6F76;
+    --color-surface-light: #FFFFFF;
+    --color-border: #E0E4E8;
+    --color-secondary: #D4AF37; /* Gold */
+  
+    /* === Tertiary Colors === */
+    --color-black: #343434;
+    --color-green: #4CAF50;
+    --color-red: #E53935;
+    --color-white: #FAFAF8;
+
+
+    /* Spacing */
+    --spacing-xxxsmall: 0.125rem; /* 2px */
+    --spacing-xxsmall: 0.25rem;   /* 4px */
+    --spacing-xsmall: 0.5rem;     /* 8px */
+    --spacing-small: 0.75rem;     /* 12px */
+    --spacing-medium: 1rem;       /* 16px */
+    --spacing-large: 1.5rem;      /* 24px */
+    --spacing-xlarge: 2rem;       /* 32px */
+    --spacing-xxlarge: 3rem;      /* 48px */
+    --spacing-xxxlarge: 4rem;     /* 64px */
+
+    /* === Font Sizes === */
+    --font-size-xxsmall: 0.625rem;  /* 10px */
+    --font-size-xsmall: 0.75rem;    /* 12px */
+    --font-size-small: 0.875rem;    /* 14px */
+    --font-size-base: 1rem;         /* 16px */
+    --font-size-medium: 1.125rem;   /* 18px */
+    --font-size-large: 1.25rem;     /* 20px */
+    --font-size-xlarge: 1.5rem;     /* 24px */
+    --font-size-xxlarge: 2rem;      /* 32px */
+    --font-size-xxxlarge: 3rem;     /* 48px */
+    --font-size-display: 4rem;      /* 64px */
+
+    /* Radius */
+    --radius-none: 0;
+    --radius-sm: 4px;
+    --radius-default: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-round: 9999px;
+
+    --container-width: 1200px;
+    --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
