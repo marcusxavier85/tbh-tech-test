@@ -2,6 +2,17 @@
 
 ## SETUP
 
+I'll send over the env variables in another manner somehow. I would normally have them in a password manager for each user to go and grab.
+
+You will need to setup an `.env.local` file in the root of the repo and have these 2 keys
+
+```
+NEXT_PUBLIC_SUPABASE_URL='url'
+NEXT_PUBLIC_SUPABASE_ANON_KEY="key'
+```
+
+Then run the following
+
 ```
 npm install
 npm run dev
